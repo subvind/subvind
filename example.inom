@@ -1,0 +1,14 @@
+** comment here from alien
+$$ comment here from me
+
+!*
+ * block comment here
+ * from alien
+ *!
+ 
+!$
+ $ block comment here
+ $ from me
+ $!
+
+
