@@ -1,3 +1,6 @@
+// this line gets printed to the console log
+// this __ gets printed __ :: line :: to the console log
+
 ** comment here from alien
 $$ comment here from me
 
@@ -11,26 +14,46 @@ $$ comment here from me
  $ from me
  $!
 
+$$ import modules by name
+M mod_a []
+M mod_b []
 
-M [] mod_a M
-M [] mod_b M
+$$ import nodes by name
+M node_a /\
 
-[ module_name Y mod_a, mod_b ]
+$$ import process by name
+M proc_a <>
+
+$$ define a module
+[module_name Y mod_a, mod_b]
+
+  $$ connect archors to arg vars
   G thing_name H mod_a X node_a V anchor_a C
   G stuff_name H mod_b X node_b V anchor_b C
-  / node_name Y thing_name /
+  
+  $$ define a node
+  /node_name Y thing_name/
+  
+    $$ merge init properties with arg vars
     P prop_name: boolean H true R
     P prop_z: integer H 0 R
     P prop_x: integer H thing_name || 42 R
+    
+    $$ define a process
     <
-      ( function_a Y arg_a, arg_b {
+      $$ define a function
+      (function_a Y arg_a, arg_b {
         K arg_a + arg_b N
-      } integer )
+      } integer)
+      
+      $$ example assignments
       H zero: integer = prop_z S
       H one: integer = 1 S
       H two: integer = 2 S
       H three: integer = add -> one, two S
-      T anchor_name H add -> property_x, three J
+      
+      $$ pass values to the next node arg vars
+      T anchor_name H add -> prop_x, three J
     >
-  \ anchor_name \
+  \anchor_name\
 ][
