@@ -18,12 +18,6 @@ $$ import modules by name
 M mod_a []
 M mod_b []
 
-$$ import nodes by name
-M node_a /\
-
-$$ import process by name
-M proc_a <>
-
 $$ define a module
 [module_name Y mod_a, mod_b]
 
@@ -39,14 +33,14 @@ $$ define a module
     P prop_z: integer H 0 R
     P prop_x: integer H thing_name || 42 R
     
-    $$ define a process
+    $$ define an example process
     <
       $$ define a function
       (function_a Y arg_a, arg_b {
         K arg_a + arg_b N
       } integer)
       
-      $$ example assignments
+      $$ types & assignments
       H zero: integer = prop_z S
       H one: integer = 1 S
       H two: integer = 2 S
@@ -54,6 +48,31 @@ $$ define a module
       
       $$ pass values to the next node arg vars
       T anchor_name H add -> prop_x, three J
+      
+      ** demo
+      // hello world
     >
   \anchor_name\
 ][
+
+!*
+ * define a main
+ *!
+inomauto module_name X node_name
+
+$$ define a compact module
+[module_a]
+  $$ import nodes by name
+  M node_a /\
+  M node_b /\
+][
+
+$$ define a compact module
+[module_b]
+  $$ define a compact node
+  /node_a/
+    $$ import a process by name
+    M proc_a <>
+  \\
+][
+
