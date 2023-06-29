@@ -15,15 +15,16 @@ $$ comment here from me
  $!
 
 $$ import modules by name
-M mod_a []
-M mod_b []
+M module_x []
+M module_y []
+M module_z []
 
 $$ define a module
-[module_name Y mod_a, mod_b]
+[module_name Y module_a, module_b]
 
   $$ connect archors to arg vars
-  G thing_name H mod_a X node_a V anchor_a C
-  G stuff_name H mod_b X node_b V anchor_b C
+  G thing_name H module_a X node_a V anchor_1 C
+  G stuff_name H module_b X node_a V anchor_2 C
   
   $$ define a node
   /node_name Y thing_name/
@@ -62,7 +63,7 @@ $$ define a module
 !*
  * define a main
  *!
-inomauto module_name X node_name
+inomauto module_main X node_main
 
 $$ define a compact module
 [module_a]
