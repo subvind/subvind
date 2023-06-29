@@ -40,8 +40,12 @@ $$ define a module
         K arg_a + arg_b N
       } integer)
       
-      $$ types & assignments
-      H zero: integer = prop_z S
+      !$
+       $ S ... const
+       $ I ... let
+       $ U ... mut
+       $!
+      H zero: integer = prop_z IU
       H one: integer = 1 S
       H two: integer = 2 S
       H three: integer = add -> one, two S
