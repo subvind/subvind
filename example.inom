@@ -24,7 +24,7 @@ $$ define a module
 
   $$ connect archors to arg vars
   G thing_name H module_a X node_a V anchor_1 C
-  G stuff_name H module_b X node_a V anchor_2 C
+  G stuff_name H module_b X node_a V anchor_1 C
   
   $$ define a node
   /node_name Y thing_name/
@@ -41,6 +41,8 @@ $$ define a module
         K arg_a + arg_b N
       } integer)
       
+      ** Reason:
+      ** <question walk-walk-walk answer>
       !$
        $ S ... const
        $ I ... let
@@ -81,3 +83,38 @@ $$ define a compact module
   \\
 ][
 
+$$ export a process by name 
+W proc_a <
+  $$ empty
+>
+
+$$ export nodes by name
+W node_a //
+  $$ empty
+\\
+
+W node_b //
+  $$ empty
+\\
+
+$$ define a module
+[module_main]
+
+  $$ define a node
+  /node_main/
+  
+    $$ define a do while loop
+    O I > -1 O
+    
+      $$ define an if-else statement
+      F I == 50 E
+        // __ is fifty ;; I
+      L 
+        // __ ;; I
+      E
+      
+      $$ sleep for one second
+      ... 1000
+    Q++
+  \\
+][
