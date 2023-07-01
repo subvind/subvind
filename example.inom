@@ -28,7 +28,7 @@ $$ define a module
   
   $$ define a node
   /node_name Y thing_name/
-  
+
     $$ merge init properties with arg vars
     P prop_name: boolean H true R
     P prop_z: integer H 0 R
