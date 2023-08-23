@@ -1,3 +1,27 @@
 [submodule "ucimecu"]
 	path = ucimecu
 	url = https://github.com/subvind/ucimecu
+[submodule "entropy"]
+	path = entropy
+	url = https://github.com/subvind/entropy
+[submodule "FlowERP"]
+	path = FlowERP
+	url = https://github.com/subvind/FlowERP
+[submodule "CommandERP"]
+	path = CommandERP
+	url = https://github.com/subvind/CommandERP
+[submodule "DisplayERP"]
+	path = DisplayERP
+	url = https://github.com/subvind/DisplayERP
+[submodule "inamlang"]
+	path = inamlang
+	url = https://github.com/subvind/inamlang
+[submodule "inam"]
+	path = inam
+	url = https://github.com/subvind/inam
+[submodule "autoide"]
+	path = autoide
+	url = https://github.com/subvind/autoide
+[submodule "flowtube"]
+	path = flowtube
+	url = https://github.com/subvind/flowtube
