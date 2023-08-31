@@ -5,7 +5,7 @@
 [submodule "entropy"]
 	path = entropy
 	url = https://github.com/subvind/entropy
-	branch = main
+	branch = master
 [submodule "FlowERP"]
 	path = FlowERP
 	url = https://github.com/subvind/FlowERP
@@ -33,4 +33,8 @@
 [submodule "flowtube"]
 	path = flowtube
 	url = https://github.com/subvind/flowtube
+	branch = main
+[submodule "TenantERP"]
+	path = TenantERP
+	url = https://github.com/subvind/TenantERP
 	branch = main
