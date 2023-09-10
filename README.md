@@ -11,14 +11,22 @@ powered by subvind...
 system...
 - root project: https://github.com/subvind/subvind
 
-projects...
-- subvind.com: https://github.com/subvind/ucimecu
-- entropy.subvind.com: https://github.com/subvind/entropy
-- backend.subvind.com: https://github.com/subvind/FlowERP
-- frontend.subvind.com: https://github.com/subvind/CommandERP
-- store.subvind.com: https://github.com/subvind/DisplayERP
-- inamlang.subvind.com: https://github.com/subvind/inamlang
-- autoide.subvind.com: https://github.com/subvind/autoide
+backend...
+- api.subvind.com: https://github.com/subvind/API
+
+erp module...
+- erpnomy.com: https://github.com/subvind/CommandERP
+- *.erpnomy.com: https://github.com/subvind/DisplayERP
+
+desk module...
+- desknomy.com: https://github.com/subvind/CommandDesk
+- *.desknomy.com: https://github.com/subvind/DisplayDesk
+
+command line...
 - inam.subvind.com: https://github.com/subvind/inam
-- flowtube.subvind.com: https://github.com/subvind/flowtube
-- tenant.subvind.com: https://github.com/subvind/TenantERP
+
+flow-based programming...
+- entropy.subvind.com: https://github.com/subvind/entropy
+
+branding...
+- subvind.com: https://github.com/subvind/copyright
