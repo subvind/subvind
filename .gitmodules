@@ -14,10 +14,6 @@
 	path = DisplayERP
 	url = https://github.com/subvind/DisplayERP
 	branch = main
-[submodule "inam"]
-	path = inam
-	url = https://github.com/subvind/inam
-	branch = main
 [submodule "flowtube"]
 	path = flowtube
 	url = https://github.com/subvind/flowtube
@@ -31,3 +27,6 @@
 [submodule "copyright"]
 	path = copyright
 	url = git@github.com:subvind/copyright.git
+[submodule "CLI"]
+	path = CLI
+	url = git@github.com:subvind/CLI.git
