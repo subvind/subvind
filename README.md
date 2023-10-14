@@ -1,34 +1,20 @@
-subvind
+made by underwind...
 ========
-Full Stack Developer; coding since 2008.
+Hello There!
+Thank you for taking the time in reviewing us for your consideration.
 
-### Solutions
-powered by subvind...
-- project homepage: https://subvind.com
-- purchase project: https://istrav.com
+Websites are like sail boats. They require a main haul or backend API. They require a main mast or frontend interface. When put together and under the right wind-conditions/user-interations your boat/project can successfully navigate to it's destination.
 
-system...
-- root project: https://github.com/subvind/subvind
+> https://underwind.solutions
 
-backend...
-- api.subvind.com: https://github.com/subvind/API
+Say hello to underwind.solutions: where your project is not just another website; because we treat your project as if it were a high end yacht. We're not as expensive as you might think though, as we only charge per request. So no wind-under-you-sails/user-interactions then no movement/charge.
 
-erp module...
-- erpnomy.com: https://github.com/subvind/CommandERP
-- *.erpnomy.com: https://github.com/subvind/DisplayERP
+Therefore, the better user experience we create, the more user-interactions your website will get, thus the more profit we can both make.
 
-desk module...
-- desknomy.com: https://github.com/subvind/CommandDesk
-- *.desknomy.com: https://github.com/subvind/DisplayDesk
+A wind wind situation :)
 
-command line...
-- cli.subvind.com: https://github.com/subvind/CLI
+kind regards,
+underwind // subvind
 
-flow...
-- entropy.subvind.com: https://github.com/subvind/entropy
-
-branding...
-- subvind.com: https://github.com/subvind/copyright
-
-### Fair Source 5 (v0.9).
+### Fair Source 25 (v0.9).
 Not open source. Not closed source. The Fair Source License allows everyone to see the source code and makes the software free to use for a limited number of users in your organization. It offers some of the benefits of open source while preserving the ability to charge for the software. https://fair.io
